@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>La Instrumental Fitness Shop</title>
+    <meta 
+        name="descripcion" 
+        content="Tienda online oficial de La Instrumental Fitness">
+    <meta 
+        name="keywords" 
+        content="tienda, tienda online, pole, pole dance, calistenia, training, entrenamiento, flexibilidad, entrenamiento integral">
+    <meta 
+        name="theme-color"
+        content="red">
+    <link rel="stylesheet" 
+        href="../Colaiacovo/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../Colaiacovo/index.html" name="icono">
+            <img class="header__logo" 
+             src="../Colaiacovo/img/logo.png" 
+             alt="Icono">
+             Barra de navegación
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse header__navegador" id="navbarNavAltMarkup">
+            <div class="navbar-nav col-lg-12">
+              <a class="nav-link header__rojo--3 col-lg-2 active" aria-current="page" href="../Colaiacovo/index.html">INICIO</a>
+              <a class="nav-link header__rojo--2 col-lg-2 " href="#conocenos">CONOCENOS</a>
+              <a class="nav-link col-lg-2 header__rojo--1" href="#contacto" tabindex="-1" aria-disabled="true">CONTACTO</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+</header>
+<body>
+
+
+
+    <div class="container cuerpo">
+        <h1>LA INSTRUMENTAL FITNESS SHOP</h1>
+        <hr>
+        <p>EL DESARROLLO MENTAL Y CORPORAL EN MOVIMIENTO</p>
+        <hr>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            CARRITO <span id="carritoCantidad" class="badge badge-danger">0</span>
+            </button>
+            <div id="carritoProductos" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <!--ACA SE GENERAN LOS ELEMENTOS DEL CARRITO-->
+            </div>
+            <div id="notificacion">
+
+            </div>
+        </div>
+        <hr>
+        <div id="indicadorCarga" class="d-flex justify-content-center">
+          <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+      </div>
+
+        <div id="productosContenedor"class="card-columns">
+            <!--ACA SE GENERAN LOS PRODUCTOS-->
+        </div>
+
+        <div id="conocenos">
+          <h3>
+            CONOCENOS
+          </h3>
+          <p>
+            Mi nombre es Florencia Colaiacovo, y junto con mi colega y compañero de vida, Oscar Cotta creamos "La Instrumental Fitness". Somos una escuela de entrenamiento integral orientado al pole sport, la calistenia y flexibilidad. A su vez hemos creado nuestra tienda online tanto para nuestros alumnos como para quienes quieran formar parte de nuestra comunidad. Les deseamos una hermosa experiencia junto a nosotros.
+          </p>       
+        </div>
+    </div>
+
+
+<!-----------aca empieza el footer-->
+    
+<footer id="contacto"class="container">
+    <div class="row">
+      <div class="col-lg-3 col-xs-12">
+        <a class="footer__rojo--4" 
+        href="https://api.whatsapp.com/send?phone=541135225845&text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20los%20servicios%20de%20locuci%C3%B3n.">+54 9 11 3522 5845
+        </a>
+      </div>
+      <div class="col-lg-3 col-xs-12">
+        <a class="footer__rojo--3" 
+          href="https://www.google.com/maps/place/Buenos+Aires,+CABA/@-34.6157437,-58.5733832,11z/data=!3m1!4b1!4m5!3m4!1s0x95bcca3b4ef90cbd:0xa0b3812e88e88e87!8m2!3d-34.6036844!4d-58.3815591">FLORES, C.A.B.A., ARGENTINA
+        </a>
+      </div>
+      <div class="col-lg-3 col-xs-12">
+        <a class="footer__rojo--2" 
+        href="https://www.instagram.com/lainstrumental.fitness.shop/">@LAINSTRUMENTAL.FITNESS.SHOP
+        </a>
+      </div>
+      <div class="col-lg-3 col-xs-12">
+        <a class="footer__rojo--1" 
+          href="mailto:lainstrumentalfitness@gmail.com">LAINSTRUMENTALFITNESS@GMAIL.COM
+        </a>
+      </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="js/globales.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/producto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
